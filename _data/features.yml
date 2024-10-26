@@ -1,61 +1,61 @@
 players:
-  title: Players
+  title: Spelare
   features:
-    - title: Choose from Multiple Games
+    - title: Välj mellan många spel
       description: >
-        There are many games to choose from. You could survive in a harsh
-        environment, build creatively, or fight other players.
-        Just [download a game](https://content.minetest.net/packages/?type=game)
-        or connect to a server.
+        Det finns många spel att välja mellan. Du skulle kunna överleva i ett hårt
+        klimat, bygga kreativt eller kriga mot andra spelare.
+        Bara [ladda ner ett spel](https://content.minetest.net/packages/?type=game)
+        eller anslut till en server.
 
-    - title: Enormous Maps
+    - title: Enorma världar
       description: >
-        With 62,000 × 62,000 × 62,000 blocks, there's no running out of space.
-        You can mine 31,000 blocks down, or build 31,000 blocks up.
+        Med 62 000 × 62 000 × 62 000 noder finns det ingen brist på utrymme.
+        Du kan gräva 31 000 noder nedåt eller 31 000 noder uppåt.
 
-    - title: Multiplayer Support
+    - title: Multiplayerstöd
       description: >
-        Play by yourself, locally with your friends, or online with
-        dozens of players on a server.
+        Spela själv, lokalt med vänner, eller online med dussintals
+        av spelare på en server.
 
-    - title: Texture Packs
+    - title: Texturpaket
       description: >
-        Not happy with the look of the textures?
-        [Change them!](https://content.minetest.net/packages/?type=txp)
+        Inte glad med utseendet på texturerna?
+        [Ändra dem!](https://content.minetest.net/packages/?type=txp)
 
-    - title: Beautiful Map Generators
+    - title: Tjusiga världgeneratorer
       description: >
-        Choose from many different fast map generators included in the engine,
-        or install one as a mod.
+        Välj från många olika snabba världgeneratorer inkluderad i motorn,
+        eller installera en som en modd.
 
 developers:
-  title: Developers
+  title: Utvecklare
   features:
-    - title: Make a Game
+    - title: Gör ett spel
       description: >
-        Create your own voxel game using our
+        Skapa ditt egna voxel-baserat spel med vår
         [Lua API](https://dev.minetest.net/Modding_Intro).
-        No need to worry about tricky voxel rendering or networking;
-        instead, write scripts to add items and control game play.
+        Du behöver inte oroa dig om komplicerad voxelrendering eller nätverk;
+        istället kan du skriva skript för att lägga till saker och kontrollera spelet.
 
-    - title: Modding API
+    - title: Moddnings-API
       description: >
-        Use the same Lua API to make mods for any Minetest-based game.
-        Publish your mods on [ContentDB](https://content.minetest.net),
-        and contribute to others' mods.
+        Använd samma Lua-API för att göra moddar för vilket Luanti-baserat spel som helst.
+        Publicera dina moddar på [ContentDB](https://content.minetest.net),
+        eller bidra till andras moddar.
 
-    - title: Large Collection of Existing Mods
+    - title: Stor samling existerande moddar
       description: >
-        There are over 1100 open source mods on
+        Det finns över 1100 moddar med öppen källkod på
         [ContentDB](https://content.minetest.net/),
-        which are ready to be used, adapted or learned from.
+        som är redo för att användas, justeras eller läras från.
 
-    - title: Friendly Community
+    - title: Vänlig gemenskap
       description: >
-        You can find help with any problems [from our community](/get-involved/).
+        Du kan hitta hjälp med problem [från vår gemenskap (på engelska)](/get-involved/).
 
-    - title: Open Source
+    - title: Öppen källkod
       description: >
-        The engine is open source and transparently developed.
-        [Submit an issue](https://github.com/minetest/minetest/issues)
-        for anything you're missing, or get the source code and dig into it yourself.
+        Motorn är öppen källkod och utvecklas med transparens.
+        [Öppna en issue (på engelska)](https://github.com/minetest/minetest/issues)
+        för någonting du saknar, eller ladda ner källkoden och ändra den på egen hand.

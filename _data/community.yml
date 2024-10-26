@@ -11,5 +11,5 @@
   icon: irc.svg
 
 - name: Servers
-  url: /servers/
+  url: https://servers.minetest.net
   icon: servers.svg

@@ -3,56 +3,52 @@
     <div class="columns is-multiline">
 
       <div class="column is-6-mobile">
-        <h5 class="footer-title">Minetest</h5>
+        <h5 class="footer-title">Luanti</h5>
         <ul class="list-unstyled">
-          <li><a href="{{ '/downloads/' | relative_url }}">Downloads</a></li>
-          <li><a href="https://blog.minetest.net/">News</a></li>
-          <li><a href="{{ '/credits/' | relative_url }}">Credits</a></li>
-          <li><a href="{{ '/education/' | relative_url }}">For Education</a></li>
-          <li><a href="/app-privacy-policy/">Privacy Policy</a></li>
+          <li><a href="{{ '/downloads/' | relative_url }}">Nerladdningar</a></li>
+          <li><a href="https://blog.minetest.net/">Blogg</a></li>
+          <li><a href="https://www.minetest.net">Credits</a></li>
           <li><a href="/press/">Press Kit / Posters</a></li>
         </ul>
       </div>
 
       <div class="column is-6-mobile">
-        <h5 class="footer-title">Content</h5>
+        <h5 class="footer-title">Innehåll</h5>
         <ul class="list-unstyled">
           <li><a href="https://content.minetest.net">ContentDB</a></li>
-          <li><a href="https://content.minetest.net/packages/?type=game">Games</a></li>
-          <li><a href="https://content.minetest.net/packages/?type=mod">Mods</a></li>
-          <li><a href="https://content.minetest.net/packages/?type=txp">Texture Packs</a></li>
+          <li><a href="https://content.minetest.net/packages/?type=game">Spel</a></li>
+          <li><a href="https://content.minetest.net/packages/?type=mod">Moddar</a></li>
+          <li><a href="https://content.minetest.net/packages/?type=txp">Texturpaket</a></li>
         </ul>
       </div>
 
       <div class="column is-6-mobile">
-        <h5 class="footer-title">Community</h5>
+        <h5 class="footer-title">Gemenskap (på engelska)</h5>
         <ul class="list-unstyled">
-          <li><a href="https://forum.minetest.net">Forums</a></li>
-          <li><a href="https://wiki.minetest.net/IRC">IRC</a></li>
-          <li><a href="{{ '/servers/' | relative_url }}">Servers</a></li>
-          <li><a href="https://wiki.minetest.net">Player Wiki</a></li>
+          {% for item in site.data.community %}
+            <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+          {% endfor %}
         </ul>
       </div>
 
       <div class="column is-6-mobile">
-        <h5 class="footer-title">Social</h5>
+        <h5 class="footer-title">Socialt (på engelska)</h5>
         <ul class="list-unstyled">
-          <li><a href="https://matrix.to/#/#minetest:tchncs.de">Matrix</a></li>
-          <li><a href="https://fosstodon.org/@Minetest" rel="me">Mastodon</a></li>
-          <li><a href="https://discord.gg/minetest">Discord</a></li>
-          <li><a href="https://reddit.com/r/minetest/">Subreddit</a></li>
+          {% for social in site.data.social %}
+            <li><a href="{{ social.url }}">{{ social.name }}</a></li>
+          {% endfor %}
         </ul>
       </div>
 
       <div class="column is-6-mobile">
-        <h5 class="footer-title">Development</h5>
+        <h5 class="footer-title">Utveckling</h5>
         <ul class="list-unstyled">
           <li><a href="https://github.com/minetest/minetest">GitHub</a></li>
-          <li><a href="https://wiki.minetest.net/IRC">#minetest-dev on Libera IRC</a></li>
-          <li><a href="https://dev.minetest.net/Main_Page">Developer Wiki</a></li>
-          <li><a href="https://api.minetest.net">Lua API reference</a></li>
-          <li><a href="{{ '/get-involved/#donate' | relative_url }}">Donate</a></li>
-          <li><a href="https://rubenwardy.com/minetest_modding_book/">Minetest Modding Book</a></li>
+          <li><a href="https://wiki.minetest.net/IRC">#minetest-dev på Libera IRC</a></li>
+          <li><a href="https://dev.minetest.net/Main_Page">Utvecklarwiki</a></li>
+          <li><a href="https://api.minetest.net">Lua API-referens</a></li>
+          <li><a href="{{ '/get-involved/#donate' | relative_url }}">Donera</a></li>
+          <li><a href="https://rubenwardy.com/minetest_modding_book/">Luanti Modding Book</a></li>
         </ul>
       </div>
 
@@ -60,10 +56,10 @@
   </div>
 
   <div class="footer-copyright">
-    © 2015-{{ site.time | date: '%Y' }} The Minetest Team.
-    <a href="https://github.com/minetest/minetest.github.io">Source</a><br />
-    MIT for code, CC-BY-SA 3.0 for content, media under
-    <a href="https://github.com/minetest/minetest.github.io/#license">various licenses</a>.
-    Font Awesome icons under <a href="https://fontawesome.com/license">CC-BY 4.0</a>.
+    © 2015-{{ site.time | date: '%Y' }} The Luanti Team.
+    <a href="https://github.com/minetest/minetest.github.io">Källkod för hemsidan</a>
+    Domänen luanti.se drivs av <a href="https://voxelmanip.se">ROllerozxa</a> och denna sida är en svensk översättning av
+    Luanti:s landningssida.<br>
+    <a href="https://github.com/rollerozxa/luanti.se">Källkod för hemsidan</a>
   </div>
 </footer>

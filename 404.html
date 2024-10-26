@@ -5,17 +5,6 @@ layout: default
 permalink: 404.html
 ---
 
-<script>
-  // Forum URL redirection
-  const urlParams = new URLSearchParams(window.location.search.slice(1));
-
-  if (urlParams.has('id')) {
-    // Convert to a number for security (only numeric values make sense anyway)
-    const topicId = Number(urlParams.get('id'));
-    window.location.replace(`https://forum.minetest.net/viewtopic.php?id=${topicId}`);
-  }
-</script>
-
 <section class="section">
   <div class="container">
     <div class="content">
@@ -28,14 +17,9 @@ permalink: 404.html
               alt="Unknown node"
             >
 
-            <h2>Sorry, we could not find that page!</h2>
+            <h2>Ledsen, vi kunde inte hitta den här sidan.</h2>
             <p>
-              <a href="{{ '/' | relative_url }}" class="has-text-weight-bold">Go to the homepage</a>
-            </p>
-            <p>
-              Please report any broken links on the
-              <a href="https://github.com/minetest/minetest.github.io/issues">
-                issues page for this website</a>.
+              <a href="{{ '/' | relative_url }}" class="has-text-weight-bold">Gå till hemsidan</a>
             </p>
           </div>
         </div>

@@ -2,12 +2,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>
     {{ page.title }}
-    {% unless page.title_append == false %}- Minetest {% endunless %}
+    {% unless page.title_append == false %}- Luanti {% endunless %}
 </title>
 <link rel="canonical" href="https://www.minetest.net{{ page.url }}">
 <meta name="og:url" content="https://www.minetest.net{{ page.url }}">
 <meta name="og:title" content="{{ page.title | escape }}">
-<meta name="og:site_name" content="Minetest">
+<meta name="og:site_name" content="Luanti">
 {% if page.description %}
   <meta name="og:description" content="{{ page.description | escape | strip }}">
   <meta name="description" content="{{ page.description | escape | strip }}">
@@ -35,15 +35,3 @@
 <meta name="msapplication-TileImage" content="{{ '/media/favicon/144x144.png' | relative_url }}">
 <meta name="theme-color" content="#ffffff">
 <script defer src="{{ '/assets/js/main.js' | relative_url }}"></script>
-<script defer>
-  var _paq = _paq || [];
-  _paq.push(["trackPageView"]);
-  _paq.push(["enableLinkTracking"]);
-  (function() {
-    var u="//stats.minetest.net/";
-    _paq.push(["setTrackerUrl", u+"piwik.php"]);
-    _paq.push(["setSiteId", 1]);
-    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
-    g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
-  })();
-</script>

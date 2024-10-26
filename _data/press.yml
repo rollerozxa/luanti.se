@@ -5,13 +5,6 @@ resources:
     para: A flyer to promote Minetest.
     url: https://gitlab.com/marco_a/minetest-flyer-poster
 
-  - title: Education Leaflet
-    author: Lemente and Thomate
-    img: edu_leaflet.png
-    fit: cover
-    para: A leaflet to promote Minetest in Education.
-    url: https://gitlab.com/rubenwardy/fosdem24/-/tree/main/edu_leaflet?ref_type=heads
-
   - title: Roller banner
     author: Thomate and Lemente
     img: roller_banner.jpg
