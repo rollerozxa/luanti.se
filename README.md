@@ -1,7 +1,12 @@
-# [Minetest Website](https://www.minetest.net)
+# luanti.se
+Den här repository:n innehåller källkoden till en svensk översättning av Luantis landningssida som är tillgänglig på [luanti.se](https://luanti.se).
 
-[![Build status](https://github.com/minetest/minetest.github.io/workflows/build/badge.svg)](https://github.com/minetest/minetest.github.io/actions)\
-The official Minetest website, living at [www.minetest.net](https://www.minetest.net).
+Nedan följer ursprunsliga README:
+
+# [Luanti Website](https://www.luanti.org)
+
+[![Build status](https://github.com/luanti-org/luanti-org.github.io/workflows/build/badge.svg)](https://github.com/luanti-org/luanti-org.github.io/actions)\
+The official Luanti website, living at [www.luanti.org](https://www.luanti.org).
 
 ## Features
 
@@ -13,7 +18,7 @@ The official Minetest website, living at [www.minetest.net](https://www.minetest
 
 This site uses the [Jekyll](https://jekyllrb.com) static site generator.
 
-- Ensure you have [Ruby](https://www.ruby-lang.org/) 2.4 or later installed.
+- Ensure you have the specified [Ruby](https://www.ruby-lang.org/) [version](.ruby-version) or later installed.
 - Install [Bundler](https://bundler.io/) by running `gem install bundler`.
   - On Linux, use a Ruby version manager such as [rbenv](https://github.com/rbenv/rbenv)
     to easily switch to any version and avoid permission issues.
@@ -35,6 +40,12 @@ When working on new features, keep in mind this website only supports
 - Safari (two most recent versions)
 
 Internet Explorer isn't supported.
+
+## Brand icons
+
+- [Discord](https://discord.com/branding)
+- [Mastodon](https://joinmastodon.org/branding)
+- [Reddit](https://redditbrand.lingoapp.com/s/d9x3n2?v=40)
 
 ## License
 

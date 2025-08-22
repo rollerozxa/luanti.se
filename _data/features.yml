@@ -5,7 +5,7 @@ players:
       description: >
         Det finns många spel att välja mellan. Du skulle kunna överleva i ett hårt
         klimat, bygga kreativt eller kriga mot andra spelare.
-        Bara [ladda ner ett spel](https://content.minetest.net/packages/?type=game)
+        Bara [ladda ner ett spel](https://content.luanti.org/packages/?type=game)
         eller anslut till en server.
 
     - title: Enorma världar
@@ -21,7 +21,7 @@ players:
     - title: Texturpaket
       description: >
         Inte glad med utseendet på texturerna?
-        [Ändra dem!](https://content.minetest.net/packages/?type=txp)
+        [Ändra dem!](https://content.luanti.org/packages/?type=txp)
 
     - title: Tjusiga världgeneratorer
       description: >
@@ -41,13 +41,13 @@ developers:
     - title: Moddnings-API
       description: >
         Använd samma Lua-API för att göra moddar för vilket Luanti-baserat spel som helst.
-        Publicera dina moddar på [ContentDB](https://content.minetest.net),
+        Publicera dina moddar på [ContentDB](https://content.luanti.org),
         eller bidra till andras moddar.
 
     - title: Stor samling existerande moddar
       description: >
         Det finns över 1100 moddar med öppen källkod på
-        [ContentDB](https://content.minetest.net/),
+        [ContentDB](https://content.luanti.org/),
         som är redo för att användas, justeras eller läras från.
 
     - title: Vänlig gemenskap
@@ -57,5 +57,5 @@ developers:
     - title: Öppen källkod
       description: >
         Motorn är öppen källkod och utvecklas med transparens.
-        [Öppna en issue (på engelska)](https://github.com/minetest/minetest/issues)
+        [Öppna en issue (på engelska)](https://github.com/luanti-org/luanti/issues)
         för någonting du saknar, eller ladda ner källkoden och ändra den på egen hand.
