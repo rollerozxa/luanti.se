@@ -31,13 +31,13 @@ redirect_from:
         </p>
         <ul>
           <li class="has-text-weight-bold">
-            <a href="https://github.com/luanti-org/luanti/releases/download/5.13.0/luanti-5.13.0-win64.zip">
-              Luanti 5.13.0 - portabel, 64-bit (recommended)
+            <a href="https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0-win64.zip">
+              Luanti 5.14.0 - portabel, 64-bit (recommended)
             </a>
           </li>
           <li>
-            <a href="https://github.com/luanti-org/luanti/releases/download/5.13.0/luanti-5.13.0-win32.zip">
-              Luanti 5.13.0 - portabel, 32-bit
+            <a href="https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0-win32.zip">
+              Luanti 5.14.0 - portabel, 32-bit
             </a>
           </li>
         </ul>
@@ -68,13 +68,13 @@ redirect_from:
         <ul>
           <li>
             ARM:
-            <a href="https://github.com/luanti-org/luanti/releases/download/5.13.0/luanti-5.13.0-arm64-v8a.apk">64-bit</a> -
-            <a href="https://github.com/luanti-org/luanti/releases/download/5.13.0/luanti-5.13.0-armeabi-v7a.apk">32-bit</a>
+            <a href="https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0-arm64-v8a.apk">64-bit</a> -
+            <a href="https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0-armeabi-v7a.apk">32-bit</a>
           </li>
           <li>
             x86:
-            <a href="https://github.com/luanti-org/luanti/releases/download/5.13.0/luanti-5.13.0-x86_64.apk">64-bit</a> -
-            <a href="https://github.com/luanti-org/luanti/releases/download/5.13.0/luanti-5.13.0-x86.apk">32-bit</a>
+            <a href="https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0-x86_64.apk">64-bit</a> -
+            <a href="https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti-5.14.0-x86.apk">32-bit</a>
           </li>
         </ul>
         <p>
@@ -140,17 +140,31 @@ make install
       <div class="column is-12-tablet is-6-desktop">
         <h2>macOS</h2>
         <p>macOS 11.3 eller senare är rekommenderat. Kan fungera på äldre versioner om man bygger från källkoden.</p>
+        <p>
+          <b>
+            If you experience <a href="https://github.com/luanti-org/luanti/issues/16499">sound problems on macOS Tahoe 26</a>, try an experimental build with OpenAL-soft.
+            Please report any problems you find with the experimental builds <a href="https://github.com/luanti-org/luanti/issues/16600">here</a>.
+          </b>
+        </p>
         <ul>
           <li class="has-text-weight-bold">
-            Signerad Apple Silicon -
-            <a href="https://github.com/luanti-org/luanti/releases/download/5.13.0/luanti_5.13.0-macos11.3_arm64.zip">
-              Luanti 5.13.0 - App
+            <a href="https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti_5.14.0-macos11.3_arm64.zip">
+              Luanti 5.14.0 - App (Signed Apple Silicon, stable)
             </a>
           </li>
           <li class="has-text-weight-bold">
-            Signerad Intel 64-bit -
-            <a href="https://github.com/luanti-org/luanti/releases/download/5.13.0/luanti_5.13.0-macos11.3_x86_64_flag_O1.zip">
-              Luanti 5.13.0 - App
+            <a href="https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti_5.14.0_arm64_experimental_openal-soft.zip">
+              Luanti 5.14.0 - App (Signed Apple Silicon, experimental OpenAL-soft)
+            </a>
+          </li>
+          <li class="has-text-weight-bold">
+            <a href="https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti_5.14.0-macos11.3_x86_64_flag_O1.zip">
+              Luanti 5.14.0 - App (Signed Intel 64-bit, stable)
+            </a>
+          </li>
+          <li class="has-text-weight-bold">
+            <a href="https://github.com/luanti-org/luanti/releases/download/5.14.0/luanti_5.14.0_x86_64_experimental_openal-soft.zip">
+              Luanti 5.14.0 - App (Signed Intel 64-bit, experimental OpenAL-soft)
             </a>
           </li>
           <li>
@@ -158,7 +172,7 @@ make install
             <code>brew install --cask luanti</code>
           </li>
           <li>
-            <a href="https://www.macports.org/">MacPorts</a> also contains a port of the stable version:<br>
+            <a href="https://www.macports.org/">MacPorts</a> also contains a port of the outdated version:<br>
             <code>sudo port install minetest</code>
           </li>
         </ul>
